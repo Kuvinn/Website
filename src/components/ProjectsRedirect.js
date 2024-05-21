@@ -1,10 +1,10 @@
-import './ProjectsRedirect.css';
+import './Redirect.css';
 
 function ProjectsRedirect(){
     return(
         <a href="/Website/#/projects">
-            <div className="projectsredirect">
-                <h1 className="projectsredirect_header">Projects</h1>
+            <div className="projects2 redirect">
+                <h1 className="redirect_header">Projects</h1>
             </div>
         </a>
     )

@@ -3,13 +3,13 @@
     /* margin-top: 60px; */
     height: 800px;
     background-image: linear-gradient(rgba(81, 116, 83, 0.25),rgba(81, 116, 83, 0.25)), url("./assets/profilebackground.jpg");
-    background-size: 120%;
+    background-size: 100%;
     background-position-y: -50px;
     background-position-x: -200px;
     position: relative;
     display: flex;
     flex-direction: row;
-    animation: zoomOut 2s;
+    /* animation: zoomOut 2s; */
 }
 
 .icon{
@@ -58,7 +58,7 @@
     0%{ opacity: 0; }
     100%{opacity: 1;}
 }
-
+/* 
 @keyframes zoomOut{
     0%{
         background-size:200%;
@@ -70,7 +70,7 @@
         background-position-x: -200px;
         background-position-y:-50px;
     }
-}
+} */
 
 .shadow:hover{
     transition: background-color 1.0s ease;

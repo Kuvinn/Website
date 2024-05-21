@@ -7,10 +7,48 @@
     flex-direction: row;
 }
 
+.about2{
+    background: linear-gradient(rgb(0,0,0,.7),rgb(0,0,0,.7)),url('./assets/cafe2.jpg');
+    background-size: 100%;
+}
+
+.about2:hover{
+    background: linear-gradient(rgb(0,0,0,.3),rgb(0,0,0,.3)),url('./assets/cafe2.jpg');
+    background-size: 100%;
+}
+.projects2{
+    background: linear-gradient(rgb(0,0,0,.7),rgb(0,0,0,.7)),url('./assets/cafe4.jpg');
+    background-size: 100%;
+}
+
+.projects2:hover{
+    background: linear-gradient(rgb(0,0,0,.3),rgb(0,0,0,.3)),url('./assets/cafe4.jpg');
+    background-size: 100%;
+}
+
+.education2{
+    background: linear-gradient(rgb(0,0,0,.7),rgb(0,0,0,.7)),url('./assets/cafe5.jpg');
+    background-size: 100%;
+}
+
+.education2:hover{
+    background: linear-gradient(rgb(0,0,0,.3),rgb(0,0,0,.3)),url('./assets/cafe5.jpg');
+    background-size: 100%;
+}
+
+.extra2{
+    background: linear-gradient(rgb(0,0,0,.7),rgb(0,0,0,.7)),url('./assets/cafe6.jpg');
+    background-size: 100%;
+}
+
+.extra2:hover{
+    background: linear-gradient(rgb(0,0,0,.3),rgb(0,0,0,.3)),url('./assets/cafe6.jpg');
+    background-size: 100%;
+}
 .redirect_header{
     /* background-color: rgb(0,0,0, .6); */
     padding: 0px 40px;
-    text-decoration:underline;
+    /* text-decoration:underline; */
 }
 
 .redirect_desc{
