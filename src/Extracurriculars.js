@@ -8,11 +8,11 @@ function Extracurriculars(){
     return(
         <>
         <Header/>
-        <Footer/>
         <Redirect/>
         <AboutRedirect/>
         <EducationRedirect/>
         <ProjectsRedirect/>
+        <Footer/>
         </>
     )
 }

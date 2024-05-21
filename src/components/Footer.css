@@ -1,12 +1,11 @@
 .footer{
     /* background-color: rgb(21, 21, 21); */
     background: url("./assets/footerimg.jpg");
-    background-size: 100% 300%;
+    /* background-size: 100%; */
     background-position-y: -100px;
     position: relative;
     bottom: 0%;
-    padding: 0px 100px;
-    /* width: 100%; */
+    padding: 20px 100px;   
     color: white;
     animation: fade 4s;
 }
