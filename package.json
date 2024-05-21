@@ -1,8 +1,8 @@
 {
   "name": "professionalweb",
   "version": "0.1.0",
-  "homepage": "https://Kuvinn.github.io/Website",
-  "private": true,
+  "homepage": "https://kuvinn.github.io/Website",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
