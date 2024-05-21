@@ -1,6 +1,6 @@
 .header{
     position: fixed;
-    background-color: rgb(67, 81, 64);
+    background-color: rgba(0, 0, 0, 0.7);
     height: 60px;
     max-height: 60px;
     width: 100%;
@@ -8,6 +8,10 @@
     flex-direction: row;
     padding-left: 50px;
     padding-right: 50px;
+    z-index: 100;
+    top: 0;
+    animation: fadeIn 1s;
+    overflow: hidden;
 }
 
 .navlist{
@@ -16,9 +20,12 @@
     list-style: none;
 }
 
+.header .navlist a{
+    color: rgb(253, 253, 253);
+}
 a{
     text-decoration: none;
-    color: rgb(253, 253, 253);
+    /* color: rgb(253, 253, 253); */
     font-size: medium;
     font-weight: 500;
     font-family: sans-serif;
@@ -42,6 +49,13 @@ a:visited{
     margin-left: 50px;
 }
 
-a:hover{
+.header .navlist a:hover{
     color: tan;
+    transition: color 0.5s ease;
+}
+
+
+@keyframes fadeIn{
+    0%{ opacity: 0; }
+    100%{opacity: 1;}
 }

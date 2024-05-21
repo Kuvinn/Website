@@ -1,0 +1,80 @@
+.card{
+    color:black;
+    /* margin-top: 60px; */
+    height: 800px;
+    background-image: linear-gradient(rgba(81, 116, 83, 0.25),rgba(81, 116, 83, 0.25)), url("./assets/profilebackground.jpg");
+    background-size: 120%;
+    background-position-y: -50px;
+    background-position-x: -200px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    animation: zoomOut 2s;
+}
+
+.icon{
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    object-fit:cover;
+    object-position:0px 0px;
+    border-width: 5px;
+    border-style:dashed;
+    border-radius: 200px;
+    animation: fadeIn 4s;
+    border-color:rgb(133, 187, 147); 
+
+}
+
+.icon:hover{
+    transition: border-color .5s ease;
+    border-color: rgb(232, 239, 212);
+    border-style:solid;
+    transition: transform 1s ease;
+    transform: translateY(-10px);
+}
+
+.left{
+    position: relative;
+    left: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right{
+    position: relative;
+    left:32%;
+    top: 35%;
+    color: rgb(215, 215, 215);
+}
+
+.shadow{
+    background-color: rgb(0,0,0, .5);
+    padding: 5px 20px;
+    animation: fadeIn 4s;
+}
+
+@keyframes fadeIn{
+    0%{ opacity: 0; }
+    100%{opacity: 1;}
+}
+
+@keyframes zoomOut{
+    0%{
+        background-size:200%;
+        background-position-x: -500px;
+        background-position-y:-300px;
+    }
+    100%{
+        background-size:120%;
+        background-position-x: -200px;
+        background-position-y:-50px;
+    }
+}
+
+.shadow:hover{
+    transition: background-color 1.0s ease;
+    background-color:rgb(0,0,0, .8);
+}

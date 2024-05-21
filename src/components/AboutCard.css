@@ -1,0 +1,28 @@
+.about_sec{
+    padding: 50px;
+    margin: 0px;
+    background: linear-gradient(rgba(255, 239, 214, 0.2), rgba(255, 239, 214, 0.2)),url("./assets/cafe.jpg");
+    background-position: 0px -100px;
+    background-size: 100%;
+    color: rgb(214, 213, 213);
+    padding-left: 100px;
+    line-height: 26pt;
+}
+.about_header{
+    margin: 0px;
+}
+.about_shadow{
+    padding: 100px 50px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+
+.about_shadow:hover{
+    transition: background-color 1.0s ease;
+    background-color:rgb(0,0,0, .7);
+}
+
+.resume{
+    color: lightblue;
+    text-decoration: none;
+    font-size:large;
+}
