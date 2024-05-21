@@ -4,10 +4,10 @@ function Header(){
         <div className="header">
             <nav>
                 <ul className="navlist">
-                    <li className="home"><a href="home">Home</a></li>
-                    <li className="education"><a href="education">Education</a></li>
-                    <li className="projects"><a href="projects">Projects</a></li>
-                    <li className="extracurriculars"><a href="extracurriculars">Extracurriculars</a></li>
+                    <li className="home"><a href="#/home">Home</a></li>
+                    <li className="education"><a href="#/education">Education</a></li>
+                    <li className="projects"><a href="#/projects">Projects</a></li>
+                    <li className="extracurriculars"><a href="#/extracurriculars">Extracurriculars</a></li>
                 </ul>
             </nav>
         </div>
