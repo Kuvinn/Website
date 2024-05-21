@@ -18,17 +18,13 @@
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-a:hover .iconcaption{
+a:hover .iconcaption, a:hover .smallicon{
     color: rgb(194, 192, 234);
     transition: color 0.2s ease;
     transition: transform 1s ease;
     transform: translateY(-10px);
 }
 
-a:hover .smallicon{
-    transition: transform 1s ease;
-    transform: translateY(-10px);
-}
 .smallicon{
     width: 50px;
     height: auto;

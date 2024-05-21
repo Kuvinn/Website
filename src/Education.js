@@ -13,7 +13,7 @@ function Education(){
         <Header/>
         <Suspense fallback={<div>Loading...</div>}><EducationCard/></Suspense>
         <Suspense fallback={<div>Loading...</div>}><SkillsCard/></Suspense>
-        <Suspense fallback={<div>Loading...</div>}>        <Redirect/>
+        <Suspense fallback={<div>Loading...</div>}><Redirect/>
         <AboutRedirect/>
         <ProjectsRedirect/>
         <ExtraRedirect/></Suspense>

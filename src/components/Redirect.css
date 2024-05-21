@@ -1,5 +1,5 @@
 .redirect{
-    background: linear-gradient(rgb(0,0,0,1),rgb(0,0,0,1)),url('./assets/cafe5.jpg');
+    background: linear-gradient(rgb(0,0,0,.8),rgb(0,0,0,.8)),url('./assets/bcafe3.jpg');
     background-size: 100%;
     color: rgb(227, 227, 227);
     padding: 20px 100px;
@@ -8,41 +8,41 @@
 }
 
 .about2{
-    background: linear-gradient(rgb(0,0,0,.7),rgb(0,0,0,.7)),url('./assets/cafe2.jpg');
+    background: linear-gradient(rgb(0,0,0,.7),rgb(0,0,0,.7)),url('./assets/bcafe.jpg');
     background-size: 100%;
 }
 
 .about2:hover{
-    background: linear-gradient(rgb(0,0,0,.3),rgb(0,0,0,.3)),url('./assets/cafe2.jpg');
+    background: linear-gradient(rgb(0,0,0,.3),rgb(0,0,0,.3)),url('./assets/bcafe.jpg');
     background-size: 100%;
 }
 .projects2{
-    background: linear-gradient(rgb(0,0,0,.7),rgb(0,0,0,.7)),url('./assets/cafe4.jpg');
+    background: linear-gradient(rgb(0,0,0,.7),rgb(0,0,0,.7)),url('./assets/bcafe4.jpg');
     background-size: 100%;
 }
 
 .projects2:hover{
-    background: linear-gradient(rgb(0,0,0,.3),rgb(0,0,0,.3)),url('./assets/cafe4.jpg');
+    background: linear-gradient(rgb(0,0,0,.3),rgb(0,0,0,.3)),url('./assets/bcafe4.jpg');
     background-size: 100%;
 }
 
 .education2{
-    background: linear-gradient(rgb(0,0,0,.7),rgb(0,0,0,.7)),url('./assets/cafe5.jpg');
+    background: linear-gradient(rgb(0,0,0,.7),rgb(0,0,0,.7)),url('./assets/bcafe2.jpg');
     background-size: 100%;
 }
 
 .education2:hover{
-    background: linear-gradient(rgb(0,0,0,.3),rgb(0,0,0,.3)),url('./assets/cafe5.jpg');
+    background: linear-gradient(rgb(0,0,0,.3),rgb(0,0,0,.3)),url('./assets/bcafe2.jpg');
     background-size: 100%;
 }
 
 .extra2{
-    background: linear-gradient(rgb(0,0,0,.7),rgb(0,0,0,.7)),url('./assets/cafe6.jpg');
+    background: linear-gradient(rgb(0,0,0,.7),rgb(0,0,0,.7)),url('./assets/bcafe6.jpg');
     background-size: 100%;
 }
 
 .extra2:hover{
-    background: linear-gradient(rgb(0,0,0,.3),rgb(0,0,0,.3)),url('./assets/cafe6.jpg');
+    background: linear-gradient(rgb(0,0,0,.3),rgb(0,0,0,.3)),url('./assets/bcafe6.jpg');
     background-size: 100%;
 }
 .redirect_header{
