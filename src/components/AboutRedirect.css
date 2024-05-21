@@ -1,0 +1,19 @@
+.aboutredirect{
+    background: linear-gradient(rgb(0,0,0,.6),rgb(0,0,0,.6)),url('./assets/cafe.jpg');
+    background-size: 100%;
+    color: rgb(227, 227, 227);
+    padding: 0px 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutredirect_header{
+    /* background-color: rgb(0,0,0, .6); */
+    padding: 20px 20px;
+    margin-left:20px;
+}
+
+.aboutredirect:hover{
+    background-image: linear-gradient(rgb(0,0,0,.2),rgb(0,0,0,.2)),url('./assets/cafe.jpg');
+    background-size: 100%;
+}

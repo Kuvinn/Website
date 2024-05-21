@@ -9,14 +9,12 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    overflow: hidden;
     animation: zoomOut 2s;
 }
 
 .icon{
     width: 250px;
     height: 250px;
-    overflow: hidden;
     object-fit:cover;
     object-position:0px 0px;
     border-width: 5px;
