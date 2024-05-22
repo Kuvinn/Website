@@ -1,0 +1,9 @@
+.extra{
+    display: flex;
+    flex-direction: column;
+    padding: 200px 100px;
+    color: white;
+    background: linear-gradient(rgb(0,0,0,0),rgb(0,0,0,1)), url("./assets/cafe6.jpg");
+    background-size: 100%;
+    /* background-position-y: -200px; */
+}  
